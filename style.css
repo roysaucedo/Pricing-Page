@@ -13,6 +13,26 @@ a {
     color: rgb(0, 0, 78);
 }
 
+ul {
+    margin: 15px 0px;
+    list-style: none;
+}
+
+li {
+    padding: 5px 0px;
+    text-align: left;
+    list-style-image: url(img/checkicon-green.svg);
+    font-size: 14px;
+}
+
+.blue-li {
+    list-style-image: url(img/checkicon-blue.svg);
+}
+
+.purp-li {
+    list-style-image: url(img/checkicon-purp.svg);
+}
+
 .nav-wrapper {
     margin: 20px 100px;
     width: 80vw;
@@ -72,24 +92,28 @@ a {
 /* PRICE */
 
 .pricing-main-div {
-    background-color: #fcfcfc;
+    background-color: #ffffff;
     padding: 50px 0px 0px 0px;
     height: auto;
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
 }
 
 .card-main-div {
     width: 60vw;
+    margin: auto;
     display: flex;
     justify-content: space-between;
+    /* background-color: #d4fae0; */
 }
 
 .card {
     width: 220px;
-    height: 400px;
+    height: 360px;
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 10px #eeeeee;
+
 }
 
 .card-price-div {
@@ -108,4 +132,43 @@ a {
 
 .card-price-text-small {
     font-size: 12px;
+}
+
+.benefits-list {
+
+}
+
+.pricing-bottom-text {
+    padding: 40px 0px;
+}
+
+.card-btn {
+    width: 90%;
+    height: 40px;
+    background-color: #14DFA1;
+    border-radius: 50px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-btn-text {
+    color: #ffffff;
+    padding-bottom: 2px;
+}
+
+.light-blue-bg {
+    background-color: #F0F9FE;
+}
+
+.light-purp-bg {
+    background-color: #EFEDFF;
+}
+
+.blue-bg {
+    background-color: #00B9F3;
+}
+.purp-bg {
+    background-color: #9123FE;
 }
